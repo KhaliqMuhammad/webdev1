@@ -1,0 +1,55 @@
+/* Write all your custom CSS below this line  */
+
+body {
+    margin: 1em;
+    background-color: black;
+}
+h1 {color: lightgreen;
+background: black;
+text-align: center;
+padding: 20px;
+font-family: Orbitron;
+font-weight: bold;
+font-size: 88px;
+border: 8px solid magenta;
+}
+h2{
+    background-color: cyan;
+    padding: .3em;
+font-family: Orbitron;
+font-weight: bold;
+font-size: 2em;
+border: .2em solid magenta;
+text-align: center;
+margin-block: ;
+}
+h3{
+    background-color: cyan;
+    text-decoration-line: underline;padding: 1em;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 1em;
+    border: .3em solid magenta;
+    width: 5em ;
+    text-align: center;
+    margin-left: 9em;
+    
+}
+img{
+    max-width: 50em;
+    margin-left: 22em;
+    padding: .8em;
+    border: .8em solid pink;
+    background-color: cyan;
+    
+}
+p{
+    color: blanchedalmond;
+    text-shadow: cyan;
+    font-size: 1.2em;
+
+}
+nav{
+    background-color: pink;
+    width: 5em;
+}
