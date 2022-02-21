@@ -3,15 +3,16 @@
 body {
     margin: 1em;
     background-color: black;
+    
 }
 h1 {color: lightgreen;
 background: black;
 text-align: center;
-padding: 20px;
+padding: .4em;
 font-family: Orbitron;
 font-weight: bold;
-font-size: 88px;
-border: 8px solid magenta;
+font-size: 5.2em;
+border: .1em solid magenta;
 }
 h2{
     background-color: cyan;
