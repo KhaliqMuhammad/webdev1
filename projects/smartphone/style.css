@@ -1,0 +1,197 @@
+.box  {
+    border: 5em solid pink;
+    width: 5em;
+    margin: 1em;
+    padding: 1em;
+    auto-marjin: 5em;
+    border-radius: 2em;
+    
+    
+    
+  }
+  .box:hover {
+       background-color: black;
+       transition: transform .5s, box-shadow .5s;
+    }
+  
+  
+  }
+  .built-in{
+    background:coral
+    
+  }
+  .hex{
+    background: darkslategrey;
+    color: white;
+  }
+  .rgb {
+    background: rgb(235, 100, 200);
+  }
+  
+  /* red, green, blue, alpha (alpha = transparency) */
+  .rgba {
+    background: rgba(235, 100, 34, 0.5);
+  }
+  
+  /* hue, saturation, lightness */
+  .hsl {
+    background: hsl(120, 100%, 50%);
+  }
+  
+  .background {
+    background: url("//picsum.photos/100/100");
+    color: black;
+  }
+  .flex-container {
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    border-radius: 2rem
+  }
+  span {
+    color: white;
+  }
+  .child {
+    width: 6rem;
+    height: 6rem;
+    background-color: darkblue;
+    margin: .5em;
+    color: white;
+    font-size: 2rem;
+    border-radius: 2rem;
+    display: flex;
+      text-align: center;
+    justify-content: center
+  }
+  body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+    header, footer {
+      display: flex;
+      flex-direction: row;
+    }
+    header .profile-thumbnail {
+      width: 5em;
+      height: 5em;
+      border-radius: 4em;
+    }
+    header .profile-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 1em;
+    }
+    header .follow-btn {
+      display: flex;
+      margin: 0 0 0 auto;
+    }
+    header .follow-btn button {
+      border: 0;
+      border-radius: 2em;
+      padding: 1em;
+    }
+    header h3, header h4 {
+      display: flex;
+      margin: 0;
+      color: black;
+    }
+    #inner p {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: white;
+    }
+    #inner hr {
+      margin: 20px 0;
+      border-style: solid;
+      opacity: 0.1;
+      color: white;
+    }
+    footer .stats {
+      display: flex;
+      font-size: 15px;
+      color: white;
+    }
+    footer .stats strong {
+      font-size: 18px;
+      color: white;
+    }
+    footer .stats .likes {
+      margin-left: 10px;
+      color: white;
+    }
+    footer .cta {
+      margin-left: auto;
+      color: white;
+    }
+    footer .cta button {
+      border: 0;
+      background: transparent;
+      color: white;
+    }
+  header {
+    background-color: cyan;
+    padding: .2em;
+     margin: 1em;
+    auto-margin: 10em;
+    border-radius: 2em;
+    color: grey;
+  }
+  h1 {
+    background-color: black;
+  
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    border: .5rem solid red;
+    padding: 1em;
+    border-radius: 2rem;
+  }
+  
+  .card {
+    text-decoration: none;
+    border: .25rem solid cyan;
+    display: inline-block;
+    max-width: 10rem;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .card__image {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 2rem;
+  }
+  
+  .card__caption {
+    font-family: Arial, sans-serif;
+    margin-top: .5em;
+    color: black;
+    font-size: clamp(.85rem, 2vw, 1.25rem);
+  }
+  
+  .card:hover {
+    background-color: black;
+  }
+  
+  .card:hover .card__caption {
+    color: white;
+  }
+  
