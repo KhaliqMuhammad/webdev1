@@ -1,0 +1,110 @@
+body {
+    background-image: url("https://media.discordapp.net/attachments/716853324154142792/907542531326234624/unnamed.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    font-size: 2rem;
+    max-width: 100%;
+    margin: 2em auto;
+    border: .25em dashed red;
+    padding: .5em;
+    background-color: rgb(128,0,128, 0.8);
+    color: cyan;
+  /*   background-image: url("//picsum.photos/100"); */
+     font-family: 'Press Start 2P', cursive;
+    height: auto;
+  }
+  header {
+    text-align: center;
+    background: rgba(12,84,80,0.5);
+     border: .10em dashed red;
+    max-width: 100%;
+    height: auto;
+  }
+  nav a {
+    margin: 0 9rem;
+    color: pink;
+     border: .10em dashed red;
+    padding: .1em;
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 2rem;
+    max-width: 20rem;
+    margin: 2em auto;
+    border: .25em dashed red;
+    padding: .5em;
+    background-color:  rgb(128,0,128, 0.8);
+    color: cyan;
+  /*   background-image: url("//picsum.photos/100"); */
+    font-family: 'Rubik Glitch', cursive;
+    max-width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 2rem;
+    max-width: 20rem;
+    margin: 2em auto;
+    border: .25em dashed red;
+    padding: .5em;
+    background-color:  rgb(128,0,128, 0.8);
+    color: cyan;
+  /*   background-image: url("//picsum.photos/100"); */
+      font-family: 'Press Start 2P', cursive;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  }
+  main {
+    max-width: 50ch;
+    margin: 3em auto;
+    padding: 5em;
+    background: rgba(12,84,80,0.5);
+    max-width: 100%;
+    height: auto;
+  
+  }
+  footer {
+    text-align: center;
+    background: rgba(12,84,80,0.5);
+    border: .10em dashed red;
+     font-family: 'Rubik Glitch', cursive;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  }
+  section {
+    background: rgba(30,15,60,0.6);
+    margin: 1em 0;
+  }
+  
+  section h3 {
+    color: white;
+    background: rgba(0,0,0,0.9);
+    padding: .5em;
+    margin: center;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  section p {
+    font-family: 'Press Start 2P', cursive;
+      background: rgba(3,15,60,0.2);
+  }
+  
+  }
+  footer {
+    position: center;
+    top: 80em
+    right: 9em;
+  border: 5em solid
+      #AD21;
+    max-width: 100%;
+    height: auto;
+  }
