@@ -1,0 +1,72 @@
+h1 {
+    color: lightgreen;
+    background: grey;
+    text-align: center;
+    padding: 0.2em;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 0.8em solid silver;
+  }
+  body {
+    background-color: rgb(251, 251, 211);
+  }
+  li:hover {
+    color: limegreen;
+    font-family: "Orbitron", cursive;
+    border: 0.3em solid black;
+  }
+  h3 {
+    margin: 0;
+    padding: 1em;
+    background: darkgrey;
+  }
+  
+  p {
+    background: gray;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  section {
+    border-left: 12px solid red;
+    margin: 3em auto;
+    max-width: 65ch;
+  }
+  section:hover {
+    color: cyan;
+    font-family: "Orbitron", cursive;
+    border: 0.3em solid black;
+  }
+  img {
+    width: 100px;
+    height: auto;
+  }
+  img:hover {
+    background-color: darkgrey;
+    border: 0.3rem solid black;
+  }
+  h2 {
+    margin: auto;
+    padding: 1em;
+    background: darkgrey;
+    text-align: center;
+  }
+  
+  h2:hover {
+    color: turquoise;
+    font-family: "Orbitron", cursive;
+    border: 0.3em solid silver;
+  }
+  h1:hover {
+    color: turquoise;
+    font-family: "Orbitron", cursive;
+    border: 0.3em solid silver;
+  }
+  a:box Model {
+    margin: auto;
+    text-align: center;
+     width: 100px;
+    height: auto;
+  }
+  
