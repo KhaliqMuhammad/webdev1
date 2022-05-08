@@ -1,0 +1,116 @@
+h1 {
+    color: #ca5f5e;
+}
+
+.animation-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bar1 {
+    width: 25em;
+    height: 2rem;
+    background: linear-gradient(to top, #6d8aa0, #8ba2b4);
+    display: inline-block;
+  
+    transform: scaleY(0);
+    /*   transform-origin: center bottom; */
+  
+    /*   animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.8,-0.46,.3,1.41); */
+  
+    animation: grow 2s infinite alternate cubic-bezier(0.8, -0.46, 0.3, 1.41);
+  }
+  
+  .bar1:nth-child(1) {
+    animation-delay: 0;
+  }
+  .bar1:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .bar1:nth-child(3) {
+    animation-delay: 1s;
+  }
+  .bar1:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  .bar1:nth-child(5) {
+    animation-delay: 2s;
+  }
+  
+  @keyframes grow {
+    to {
+      transform: scaleY(-1);
+    }
+  }
+  .bar1:hover {
+    background: linear-gradient(to top, #ca5f5e, #d68584);
+  }
+  body {
+    text-align: center;
+    background: #0d0d0d;
+  }
+  .loading-container {
+    width: 90vw;
+    margin: auto;
+    height: 2rem;
+    border-radius: 100%;
+    border: 0.2em solid black;
+    position: relative;
+    text-align: center;
+  }
+  @keyframes example {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: yellow;
+    }
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation-name: example;
+    animation-duration: 4s;
+    box-shadow: 10px 10px lightgreen;
+  }
+  
+  .bar {
+    width: 0;
+    height: 100%;
+    background: green;
+    animation: load 3s forwards;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0;
+      transform: translateY(0);
+    }
+  
+    70% {
+      width: 95%;
+      transform: translateY(0);
+    }
+  
+    89% {
+      width: 100%;
+      transform: translateY(0);
+    }
+  
+    100% {
+      width: 95%;
+      transform: translateY(100vh);
+    }
+  }
+  
