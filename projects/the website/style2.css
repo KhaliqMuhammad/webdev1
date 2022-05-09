@@ -1,0 +1,104 @@
+.wrapper {
+    flex-grow: 1;
+  }
+  
+  .bg-video-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+      49deg,
+      rgba(0, 0, 0, 0.3) 25%,
+      rgba(0, 0, 0, 0.7) 50%
+    );
+    background-size: 1px 2px;
+  }
+  .box {
+    border: 5em solid cyan;
+    width: 50em;
+    margin: auto;
+    padding: 1em;
+    border-radius: 11em;
+    height: 100vh;
+  }
+  iframe {
+    position: relative;
+    top: 1;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 11em;
+  }
+  .box:hover {
+    background-color: black;
+    transition: transform 0.5s, box-shadow 0.5s;
+  }
+  
+  .built-in {
+    background: coral;
+    color: black;
+    max-width: 50rem;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .hex {
+    background: lightgreen;
+    color: black;
+    max-width: 50rem;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .card__image {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 5 / 4;
+    border-radius: 5rem;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .rgb {
+    background: rgb(133, 291, 112);
+    text-align: ;
+    max-width: 50em;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  /* red, green, blue, alpha (alpha = transparency) */
+  .rgba {
+    background: rgba(133, 291, 112, 0.9);
+  }
+  
+  /* hue, saturation, lightness */
+  .hsl {
+    background: hsl(120, 99%, 76%);
+  }
+  
